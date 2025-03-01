@@ -30,12 +30,6 @@ Follow these steps to set up and run the system:
    pip install opencv-python mediapipe scikit-learn numpy matplotlib
    ```  
 
-3. **Run the application**  
-   ```bash
-   python inference_classifier.py
-   ```  
-   Press **'q'** to exit the webcam feed.  
-
 ## **How It Works**  
 
 ### **1. Data Collection**  
@@ -63,7 +57,7 @@ python train_classifier.py
 - Saves the trained model as **`model.p`**.  
 
 ### **4. Real-Time Gesture Recognition**  
-Run the script to **detect gestures via webcam**:  
+Once the model is trained, run the script to **detect gestures via webcam**:  
 ```bash
 python inference_classifier.py
 ```
@@ -87,4 +81,3 @@ Contributions are welcome! Feel free to **fork the repository** and submit a **p
 
 ## **License**  
 This project is licensed under the **MIT License**.
-
